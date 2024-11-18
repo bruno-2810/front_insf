@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://localhost:3000/images/sunset-projector-lamp-product-backdrop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        backdrop-filter: blur(4px);
+        padding: 10px 20px 40px 20px ;
+    }
+}
