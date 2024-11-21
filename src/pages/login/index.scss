@@ -10,13 +10,43 @@
     background-size: cover;
 
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: transparent;
-        backdrop-filter: blur(4px);
-        padding: 10px 20px 40px 20px ;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(8px); 
+        border: 1px solid rgba(255, 255, 255, 0.3); 
+        border-radius: 15px;
+        padding: 20px 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     }
+
+    button{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border: 1px solid #2B2B2B;
+        padding: 7px 20px;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #DB2B39;
+        color: white;
+    }
+
+    input{
+        outline: none;
+        padding: 5px 8px;
+        border-radius: 15px;
+        border: none;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(8px); 
+    }
+
+    h1{
+        margin: 0;
+        padding: 10px 0px;
+    }
+    
 }
